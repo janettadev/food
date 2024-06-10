@@ -1,7 +1,7 @@
 import './App.css';
 import Register from './autentication/Register';
 import Signin from './autentication/Signin';
-import Myroutes from './routes/Myroutes';
+import Myroutes from './routes/myroutes';
 
 function App() {
   return (
