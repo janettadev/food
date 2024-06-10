@@ -1,0 +1,108 @@
+#signin {
+	.signin {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		&--title {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+			&__clip {
+				clip-path: polygon(
+					30% 0%,
+					70% 0%,
+					100% 30%,
+					100% 70%,
+					70% 100%,
+					30% 100%,
+					0% 70%,
+					0% 30%
+				);
+				background: rgb(6, 94, 124);
+				width: 49.43px;
+				height: 47.5px;
+			}
+			h1 {
+				color: rgb(255, 255, 255);
+				font-family: Roboto, sans-serif;
+				font-size: 42px;
+				font-weight: 700;
+				line-height: 49px;
+				letter-spacing: 0%;
+				text-align: left;
+			}
+		}
+		&--block {
+			border-radius: 16px;
+			background: rgb(0, 17, 25);
+			width: 476px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 32px;
+			padding: 64px 0;
+			h2 {
+				color: rgb(255, 255, 255);
+				font-family: Poppins, sans-serif;
+				font-size: 32px;
+				font-weight: 500;
+				line-height: 140%;
+				letter-spacing: 0%;
+				text-align: center;
+			}
+			&__email {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				h4 {
+					color: rgb(196, 196, 204);
+					font-family: sans-serif;
+					font-size: 16px;
+					font-weight: 400;
+					line-height: 100%;
+					letter-spacing: 0%;
+					margin-bottom: 8px;
+				}
+				input {
+					width: 348px;
+					padding: 12px 14px 12px 14px;
+					background: none;
+					box-sizing: border-box;
+					border: 1px solid rgb(255, 255, 255);
+					border-radius: 5px;
+					color: rgb(124, 124, 138);
+					font-family: Roboto, sans-serif;
+					font-size: 16px;
+					font-weight: 400;
+					line-height: 100%;
+					letter-spacing: 0%;
+					text-align: left;
+				}
+			}
+			button {
+				border-radius: 5px;
+				background: rgb(117, 3, 16);
+				width: 348px;
+				height: 48px;
+				color: rgb(255, 255, 255);
+				font-family: Poppins, sans-serif;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 24px;
+				letter-spacing: 0%;
+				text-align: center;
+				border: none;
+			}
+			h5 {
+				color: rgb(255, 255, 255);
+				font-family: Poppins,sans-serif;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 24px;
+				letter-spacing: 0%;
+				text-align: center;
+			}
+		}
+	}
+}
