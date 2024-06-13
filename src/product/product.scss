@@ -1,0 +1,198 @@
+#create {
+  background: rgb(0, 10, 15);
+  padding: 40px 0;
+  .create {
+    display: flex;
+    flex-direction: column;
+    &--back {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .icon {
+        color: (225, 225, 230);
+        width: 30px;
+        height: 30px;
+      }
+      h1 {
+        color: rgb(225, 225, 230);
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+    }
+    h1 {
+      color: rgb(225, 225, 230);
+      font-family: "Roboto", sans-serif;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 140%;
+      text-align: left;
+      margin: 20px 0;
+    }
+    &--back__edit {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .edit1 {
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+        p {
+          color: rgb(196, 196, 204);
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 100%;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+
+        .div {
+          position: relative;
+          span {
+            position: absolute;
+            bottom: 13px;
+            left: 48px;
+            width: 20px;
+            height: 20px;
+            color: rgb(255, 255, 255);
+          }
+          button {
+            width: 229px;
+            height: 48px;
+            border-radius: 8px;
+            background: rgb(13, 22, 27);
+          }
+        }
+      }
+      .edit2 {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        p {
+          color: rgb(196, 196, 204);
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 100%;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+        input {
+          width: 463px;
+          height: 48px;
+          border-radius: 8px;
+          background: rgb(13, 22, 27);
+          outline: none;
+          border: none;
+        }
+      }
+      .edit3 {
+        p {
+          color: rgb(196, 196, 204);
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 100%;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+        select {
+          width: 360px;
+          height: 48px;
+          border: none;
+          outline: none;
+          border-radius: 5px;
+          background: rgb(13, 22, 27);
+          margin: 15px 0;
+        }
+      }
+    }
+    .text {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 30px;
+      h1 {
+        color: rgb(196, 196, 204);
+        font-family: " Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+    }
+    &--back__edit--ingredients {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 50px;
+      .addIngredients {
+        width: 837px;
+        height: 48px;
+        border-radius: 8px;
+        background: rgb(13, 22, 27);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+        .delete {
+          position: absolute;
+          left: 100px;
+        }
+        .add {
+          position: absolute;
+          left: 20px;
+        }
+        button {
+          width: 118px;
+          height: 32px;
+          border-radius: 8px;
+          background: rgb(118, 121, 123);
+          margin-left: 20px;
+        }
+      }
+      .price {
+        button {
+          width: 251px;
+          height: 48px;
+          border-radius: 8px;
+          background: rgb(13, 22, 27);
+          color: rgb(124, 124, 138);
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+    }
+    &--back__edit--ingredients__discribe {
+      display: flex;
+      flex-direction: column;
+      h1 {
+        color: rgb(196, 196, 204);
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 40px 0px 20px 240px;
+      }
+      .bg {
+        width: 1120px;
+        height: 172px;
+        border-radius: 8px;
+        background: rgb(13, 22, 27);
+        margin-left: 240px;
+      }
+      button {
+        width: 172px;
+        height: 48px;
+        border-radius: 5px;
+        background: rgb(171, 77, 85);
+        margin: 50px 0 50px 1100px;
+      }
+    }
+  }
+}
